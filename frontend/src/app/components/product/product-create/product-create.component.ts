@@ -22,6 +22,8 @@ export class ProductCreateComponent implements OnInit {
   }
 
   createProduct(): void {
+    // o método 'create' retorna um Observable, que faz o subscribe()
+    // para notificar as funções de showMessage() e navigate() quando a resposta http chegar;
     this.productService.create(this.product).subscribe(() => {
       this.productService.showMessage('Produto criado!')
       this.router.navigate(['/products'])
