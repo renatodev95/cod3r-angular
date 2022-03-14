@@ -14,21 +14,6 @@
       "id": 3,
       "name": "Samsung s20+",
       "price": 5000.89
-    },
-    {
-      "name": "Veio do formulário",
-      "price": "9.99",
-      "id": 4
-    },
-    {
-      "name": "Geladeira",
-      "price": "1890.44",
-      "id": 5
-    },
-    {
-      "name": "Notebook",
-      "price": "3567.87",
-      "id": 6
     }
   ]
 }
